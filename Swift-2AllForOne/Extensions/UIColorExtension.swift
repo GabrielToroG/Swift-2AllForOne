@@ -10,4 +10,8 @@ import UIKit
 
 extension UIColor {
 //    static let primaryColor = UIColor(named: "PrimaryColor")
+    static let successColor = UIColor(named: "SuccessColor")
+    static let errorColor = UIColor(named: "ErrorColor")
+    static let warningColor = UIColor(named: "WarningColor")
+
 }

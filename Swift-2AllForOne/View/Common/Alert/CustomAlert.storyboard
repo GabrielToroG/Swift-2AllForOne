@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Alert View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="Y6W-OH-hqX" customClass="CustomAlertViewController" customModule="Swift_2AllForOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WMm-lh-uEN">
+                                <rect key="frame" x="47" y="280" width="320" height="336"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="general.logo" translatesAutoresizingMaskIntoConstraints="NO" id="Amg-74-mVc">
+                                        <rect key="frame" x="128" y="48" width="64" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="TpD-A1-XtL"/>
+                                            <constraint firstAttribute="height" constant="80" id="xUy-WM-g6v"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Oh algo salió mal!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asS-bV-oEk">
+                                        <rect key="frame" x="90.5" y="144" width="139.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Este IMEI no existe, puede que estes digitando mal el código, intentalo otra vez." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9e-tF-CW3">
+                                        <rect key="frame" x="48" y="181" width="224" height="47"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-Y0-2Qw">
+                                        <rect key="frame" x="40" y="252" width="240" height="44"/>
+                                        <color key="backgroundColor" name="SuccessColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="996-Tg-LQp"/>
+                                            <constraint firstAttribute="height" constant="44" id="iZc-gx-GG5"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Entendido"/>
+                                        <connections>
+                                            <action selector="removeAlert:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="0oK-Gc-fJ7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Amg-74-mVc" firstAttribute="top" secondItem="WMm-lh-uEN" secondAttribute="top" constant="48" id="113-WV-EUm"/>
+                                    <constraint firstItem="asS-bV-oEk" firstAttribute="centerX" secondItem="WMm-lh-uEN" secondAttribute="centerX" id="9O9-Jf-vUq"/>
+                                    <constraint firstItem="EjG-Y0-2Qw" firstAttribute="centerX" secondItem="WMm-lh-uEN" secondAttribute="centerX" id="AxN-wO-sgg"/>
+                                    <constraint firstItem="asS-bV-oEk" firstAttribute="top" secondItem="Amg-74-mVc" secondAttribute="bottom" constant="16" id="DGg-L6-hoo"/>
+                                    <constraint firstItem="B9e-tF-CW3" firstAttribute="top" secondItem="asS-bV-oEk" secondAttribute="bottom" constant="16" id="OvP-H1-QJt"/>
+                                    <constraint firstItem="B9e-tF-CW3" firstAttribute="leading" secondItem="WMm-lh-uEN" secondAttribute="leading" constant="48" id="a2X-XH-I6f"/>
+                                    <constraint firstItem="EjG-Y0-2Qw" firstAttribute="top" secondItem="B9e-tF-CW3" secondAttribute="bottom" constant="24" id="axU-n6-hha"/>
+                                    <constraint firstAttribute="trailing" secondItem="B9e-tF-CW3" secondAttribute="trailing" constant="48" id="cTn-DL-uam"/>
+                                    <constraint firstAttribute="width" constant="320" id="ckE-K4-Qdj"/>
+                                    <constraint firstItem="Amg-74-mVc" firstAttribute="centerX" secondItem="WMm-lh-uEN" secondAttribute="centerX" id="e9b-Ln-i8t"/>
+                                    <constraint firstAttribute="bottom" secondItem="EjG-Y0-2Qw" secondAttribute="bottom" constant="40" id="sKU-92-B14"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEQ-Ne-8t6">
+                                <rect key="frame" x="177" y="250" width="60" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.success" translatesAutoresizingMaskIntoConstraints="NO" id="MBA-DQ-kZS">
+                                        <rect key="frame" x="6" y="6" width="48" height="48"/>
+                                        <color key="tintColor" name="SuccessColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Lbn-Kr-QRI"/>
+                                            <constraint firstAttribute="width" constant="48" id="cT3-AV-i8d"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="52c-FN-L1J"/>
+                                    <constraint firstAttribute="width" constant="60" id="LIA-LD-GOy"/>
+                                    <constraint firstItem="MBA-DQ-kZS" firstAttribute="centerY" secondItem="tEQ-Ne-8t6" secondAttribute="centerY" id="Xjx-2F-p2q"/>
+                                    <constraint firstItem="MBA-DQ-kZS" firstAttribute="centerX" secondItem="tEQ-Ne-8t6" secondAttribute="centerX" id="ZJb-uF-9br"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.44570053807947019" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WMm-lh-uEN" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="00g-1z-Bes"/>
+                            <constraint firstItem="WMm-lh-uEN" firstAttribute="top" secondItem="tEQ-Ne-8t6" secondAttribute="bottom" constant="-30" id="JnU-fs-bvh"/>
+                            <constraint firstItem="tEQ-Ne-8t6" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="K2M-zv-anH"/>
+                            <constraint firstItem="WMm-lh-uEN" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="XY5-1y-oOo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="WMm-lh-uEN" id="akD-N0-MA0"/>
+                        <outlet property="descriptionLabel" destination="B9e-tF-CW3" id="lkg-k6-ODE"/>
+                        <outlet property="logoImage" destination="Amg-74-mVc" id="ztS-gJ-mCm"/>
+                        <outlet property="nextButton" destination="EjG-Y0-2Qw" id="0B7-YH-keV"/>
+                        <outlet property="stateImage" destination="MBA-DQ-kZS" id="tfu-eE-4v4"/>
+                        <outlet property="stateView" destination="tEQ-Ne-8t6" id="ZYb-fA-6Rn"/>
+                        <outlet property="titileLabel" destination="asS-bV-oEk" id="ygd-jY-i6u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="general.logo" width="133.5" height="159"/>
+        <image name="icon.success" width="48" height="48"/>
+        <namedColor name="SuccessColor">
+            <color red="0.0" green="0.73333333333333328" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

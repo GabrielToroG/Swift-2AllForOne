@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func test(_ sender: Any) {
+        setSuccessCustomAlert(title: "Este el titulo", description: "jaj jaj jaja jaja jaajj ajajaj jaja")
+    }
+    
 }
 

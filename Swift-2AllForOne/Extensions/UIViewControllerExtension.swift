@@ -41,6 +41,8 @@ extension UIViewController {
     
     
     /// Establece el retroceder del header en modo largo --> Retorna un Custom View
+    /// - Parameters:
+    ///     - title: El título que tendrá el retroceder
     func setNavBarLargeBackButton(title: String = NSLocalizedString("button_back", comment: "")){
         let backImage = UIImage(systemName: "chevron.backward")
         let backButton = UIButton(frame: CGRect(x: 0, y: 0, width: 120.0, height: 40.0))
@@ -61,5 +63,37 @@ extension UIViewController {
     @objc func dismissViewController2(){
         navigationController?.popViewController(animated: true)
         dismiss(animated: true, completion: nil)
+    }
+    
+    
+    func setSuccessCustomAlert(title: String, description: String) {
+        let sb = UIStoryboard(name: "CustomAlert", bundle: nil)
+        let alert = sb.instantiateInitialViewController()! as! CustomAlertViewController
+        alert.alertInfo = CustomAlertInfo(
+            stateImage: UIImage(named: "icon.success"),
+            stateColor: UIColor.successColor,
+            containerViewBG: UIColor.white,
+            image: UIImage(named: "general.logo")!,
+            title: title,
+            description: description,
+            buttonText: "Siguiente",
+            buttonBG: UIColor.successColor)
+        self.present(alert, animated: true)
+    }
+    
+    
+    func setErrorCustomAlert(title: String, description: String) {
+        let sb = UIStoryboard(name: "CustomAlert", bundle: nil)
+        let alert = sb.instantiateInitialViewController()! as! CustomAlertViewController
+        alert.alertInfo = CustomAlertInfo(
+            stateImage: UIImage(named: "icon.error"),
+            stateColor: UIColor.errorColor,
+            containerViewBG: UIColor.white,
+            image: UIImage(named: "general.logo")!,
+            title: title,
+            description: description,
+            buttonText: "Siguiente",
+            buttonBG: UIColor.errorColor)
+        self.present(alert, animated: true)
     }
 }
