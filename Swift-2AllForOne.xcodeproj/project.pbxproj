@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7F15E928F89AF10021495A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15E828F89AF10021495A /* UIViewExtension.swift */; };
+		4C7F15EB28F8A60F0021495A /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15EA28F8A60F0021495A /* UILabelExtension.swift */; };
+		4C7F15ED28F8A84D0021495A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15EC28F8A84D0021495A /* UITextFieldExtension.swift */; };
+		4C7F15EF28F8A91D0021495A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15EE28F8A91D0021495A /* UIButtonExtension.swift */; };
+		4C7F15F128F8A9B40021495A /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15F028F8A9B40021495A /* UINavigationControllerExtension.swift */; };
 		4C8BD77E28F88C5600ADDC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD77D28F88C5600ADDC75 /* AppDelegate.swift */; };
 		4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD77F28F88C5600ADDC75 /* SceneDelegate.swift */; };
 		4C8BD78228F88C5600ADDC75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD78128F88C5600ADDC75 /* ViewController.swift */; };
 		4C8BD78528F88C5600ADDC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BD78328F88C5600ADDC75 /* Main.storyboard */; };
 		4C8BD78728F88C5900ADDC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BD78628F88C5900ADDC75 /* Assets.xcassets */; };
 		4C8BD78A28F88C5900ADDC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BD78828F88C5900ADDC75 /* LaunchScreen.storyboard */; };
+		4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD79328F88D4F00ADDC75 /* UIColorExtension.swift */; };
+		4C8BD79628F88DEB00ADDC75 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD79528F88DEB00ADDC75 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C7F15E828F89AF10021495A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4C7F15EA28F8A60F0021495A /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		4C7F15EC28F8A84D0021495A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		4C7F15EE28F8A91D0021495A /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		4C7F15F028F8A9B40021495A /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		4C8BD77A28F88C5600ADDC75 /* Swift-2AllForOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-2AllForOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8BD77D28F88C5600ADDC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8BD77F28F88C5600ADDC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		4C8BD78628F88C5900ADDC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8BD78928F88C5900ADDC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8BD78B28F88C5900ADDC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8BD79328F88D4F00ADDC75 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4C8BD79528F88DEB00ADDC75 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		4C8BD77C28F88C5600ADDC75 /* Swift-2AllForOne */ = {
 			isa = PBXGroup;
 			children = (
+				4C8BD79128F88CB300ADDC75 /* Extensions */,
 				4C8BD77D28F88C5600ADDC75 /* AppDelegate.swift */,
 				4C8BD77F28F88C5600ADDC75 /* SceneDelegate.swift */,
 				4C8BD78128F88C5600ADDC75 /* ViewController.swift */,
@@ -65,6 +80,20 @@
 				4C8BD78B28F88C5900ADDC75 /* Info.plist */,
 			);
 			path = "Swift-2AllForOne";
+			sourceTree = "<group>";
+		};
+		4C8BD79128F88CB300ADDC75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BD79328F88D4F00ADDC75 /* UIColorExtension.swift */,
+				4C7F15E828F89AF10021495A /* UIViewExtension.swift */,
+				4C7F15EA28F8A60F0021495A /* UILabelExtension.swift */,
+				4C7F15EE28F8A91D0021495A /* UIButtonExtension.swift */,
+				4C7F15EC28F8A84D0021495A /* UITextFieldExtension.swift */,
+				4C8BD79528F88DEB00ADDC75 /* UIViewControllerExtension.swift */,
+				4C7F15F028F8A9B40021495A /* UINavigationControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7F15E928F89AF10021495A /* UIViewExtension.swift in Sources */,
+				4C7F15ED28F8A84D0021495A /* UITextFieldExtension.swift in Sources */,
 				4C8BD78228F88C5600ADDC75 /* ViewController.swift in Sources */,
 				4C8BD77E28F88C5600ADDC75 /* AppDelegate.swift in Sources */,
+				4C8BD79628F88DEB00ADDC75 /* UIViewControllerExtension.swift in Sources */,
+				4C7F15F128F8A9B40021495A /* UINavigationControllerExtension.swift in Sources */,
+				4C7F15EF28F8A91D0021495A /* UIButtonExtension.swift in Sources */,
+				4C7F15EB28F8A60F0021495A /* UILabelExtension.swift in Sources */,
 				4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */,
+				4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
