@@ -17,13 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eBn-QP-rVg">
-                                <rect key="frame" x="32" y="414" width="350" height="68"/>
+                                <rect key="frame" x="32" y="380" width="350" height="136"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Za-3W-gPy" customClass="CustomTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="68"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="68" id="3Y2-lc-Znz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEp-ed-cUA" customClass="TooltipTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="68" width="350" height="68"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="A3B-c3-KIM"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -43,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="codeTextField" destination="7Za-3W-gPy" id="aqh-3z-TQs"/>
+                        <outlet property="tooltipTextField" destination="WEp-ed-cUA" id="Jc7-di-azr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
