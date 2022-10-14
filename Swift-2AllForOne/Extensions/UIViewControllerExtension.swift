@@ -66,7 +66,16 @@ extension UIViewController {
     }
     
     
-    func setSuccessCustomAlert(title: String, description: String) {
+    
+    // MARK: - Alerts
+    // setSuccessCustomAlert(title: "Este el titulo", subtitle: "jaj jaj jaja jaja jaajj ajajaj jaja")
+    
+    
+    /// Establece la alerta personalizada con el mensaje de éxito
+    /// - Parameters:
+    ///     - title: El título de la alerta
+    ///     - subtitle: El título de la alerta
+    func setSuccessCustomAlert(title: String, subtitle: String) {
         let sb = UIStoryboard(name: "CustomAlert", bundle: nil)
         let alert = sb.instantiateInitialViewController()! as! CustomAlertViewController
         alert.alertInfo = CustomAlertInfo(
@@ -82,7 +91,11 @@ extension UIViewController {
     }
     
     
-    func setErrorCustomAlert(title: String, description: String) {
+    /// Establece la alerta personalizada con el mensaje de éxito
+    /// - Parameters:
+    ///     - title: El título de la alerta
+    ///     - subtitle: El título de la alerta
+    func setErrorCustomAlert(title: String, subtitle: String) {
         let sb = UIStoryboard(name: "CustomAlert", bundle: nil)
         let alert = sb.instantiateInitialViewController()! as! CustomAlertViewController
         alert.alertInfo = CustomAlertInfo(

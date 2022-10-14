@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="Gck-H8-Fho" id="qA1-3A-Lgs"/>
+                <outlet property="textField" destination="Dro-qj-YQ7" id="4aM-gg-57r"/>
+                <outlet property="titleLabel" destination="GKG-27-CUm" id="8JX-kN-max"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKG-27-CUm">
+                    <rect key="frame" x="0.0" y="0.0" width="39" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dro-qj-YQ7">
+                    <rect key="frame" x="0.0" y="26" width="331" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gck-H8-Fho">
+                    <rect key="frame" x="283" y="23" width="48" height="48"/>
+                    <inset key="imageEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                    <state key="normal" image="icon.camera"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="GKG-27-CUm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="22L-g4-9hq"/>
+                <constraint firstItem="Dro-qj-YQ7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4aD-4W-sx9"/>
+                <constraint firstItem="Dro-qj-YQ7" firstAttribute="top" secondItem="GKG-27-CUm" secondAttribute="bottom" constant="8" id="OlD-yK-4Yc"/>
+                <constraint firstItem="Dro-qj-YQ7" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="Zfr-qW-bsI"/>
+                <constraint firstAttribute="trailing" secondItem="Dro-qj-YQ7" secondAttribute="trailing" id="gnp-LI-Bw2"/>
+                <constraint firstAttribute="trailing" secondItem="Gck-H8-Fho" secondAttribute="trailing" id="rMB-J0-Qy3"/>
+                <constraint firstItem="GKG-27-CUm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vGI-ar-mxc"/>
+                <constraint firstItem="Gck-H8-Fho" firstAttribute="centerY" secondItem="Dro-qj-YQ7" secondAttribute="centerY" id="vtL-sw-ZFA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="80"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon.camera" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
