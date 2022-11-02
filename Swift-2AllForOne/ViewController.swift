@@ -12,8 +12,8 @@ import RUTValidator
 class ViewController: UIViewController {
 
     // MARK: - Outlets
-
-    @IBOutlet weak var testbutton: PrimaryButton!
+    @IBOutlet weak var checkboxtest: CustomCheckbox!
+    
     
     
     // MARK: - Variables
@@ -23,9 +23,6 @@ class ViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        testbutton.button.addTarget(self, action: #selector(buttonPressed), for: .touchDown)
-        
         cylicClosure {
             switch count {
             case 1:
@@ -50,7 +47,5 @@ class ViewController: UIViewController {
     func closureSum(completionHandler: (Int, Int) -> ()) {
         completionHandler(2, 4)
     }
-    @objc func buttonPressed() {
-        testbutton.button.changeColor()
-    }
+
 }

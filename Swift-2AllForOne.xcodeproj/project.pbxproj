@@ -28,6 +28,8 @@
 		4CA891142901CC740054EB46 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA891132901CC740054EB46 /* PrimaryButton.xib */; };
 		4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA891152901CC8A0054EB46 /* PrimaryButton.swift */; };
 		4CBF7F1929101E25003E581F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF7F1829101E25003E581F /* UIConstants.swift */; };
+		4CDAFEC72911F19100660CE6 /* CustomCheckbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDAFEC62911F19100660CE6 /* CustomCheckbox.xib */; };
+		4CDAFEC92911F57800660CE6 /* CustomCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDAFEC82911F57800660CE6 /* CustomCheckbox.swift */; };
 		4CE442F428F910A800FC1164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F328F910A800FC1164 /* Main.storyboard */; };
 		4CE442F628F9147D00FC1164 /* TooltipTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F528F9147D00FC1164 /* TooltipTextField.xib */; };
 		4CE442F828F9169B00FC1164 /* TooltipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE442F728F9169B00FC1164 /* TooltipTextField.swift */; };
@@ -60,6 +62,8 @@
 		4CA891132901CC740054EB46 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		4CA891152901CC8A0054EB46 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		4CBF7F1829101E25003E581F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		4CDAFEC62911F19100660CE6 /* CustomCheckbox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCheckbox.xib; sourceTree = "<group>"; };
+		4CDAFEC82911F57800660CE6 /* CustomCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckbox.swift; sourceTree = "<group>"; };
 		4CE442F328F910A800FC1164 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CE442F528F9147D00FC1164 /* TooltipTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipTextField.xib; sourceTree = "<group>"; };
 		4CE442F728F9169B00FC1164 /* TooltipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipTextField.swift; sourceTree = "<group>"; };
@@ -97,9 +101,10 @@
 		4C7F15F328F8B0890021495A /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4C7F15FF28F90BB80021495A /* CustomTextField */,
-				4C7F15FE28F90B380021495A /* CustomButton */,
 				4C7F15F828F8B4530021495A /* CustomAlert */,
+				4C7F15FE28F90B380021495A /* CustomButton */,
+				4C7F15FF28F90BB80021495A /* CustomTextField */,
+				4CDAFEC52911F14600660CE6 /* CustomCheckbox */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -216,6 +221,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		4CDAFEC52911F14600660CE6 /* CustomCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				4CDAFEC62911F19100660CE6 /* CustomCheckbox.xib */,
+				4CDAFEC82911F57800660CE6 /* CustomCheckbox.swift */,
+			);
+			path = CustomCheckbox;
+			sourceTree = "<group>";
+		};
 		B01008FEBDA2513B01226038 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +313,7 @@
 				4CE442F428F910A800FC1164 /* Main.storyboard in Resources */,
 				4C7F15F528F8B0D40021495A /* CustomAlert.storyboard in Resources */,
 				4CE442F628F9147D00FC1164 /* TooltipTextField.xib in Resources */,
+				4CDAFEC72911F19100660CE6 /* CustomCheckbox.xib in Resources */,
 				4C8BD78A28F88C5900ADDC75 /* LaunchScreen.storyboard in Resources */,
 				4C8BD78728F88C5900ADDC75 /* Assets.xcassets in Resources */,
 			);
@@ -387,6 +402,7 @@
 				4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */,
 				4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */,
 				4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */,
+				4CDAFEC92911F57800660CE6 /* CustomCheckbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
