@@ -17,40 +17,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eBn-QP-rVg">
-                                <rect key="frame" x="32" y="380" width="350" height="136"/>
+                                <rect key="frame" x="56" y="425" width="302" height="46"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Za-3W-gPy" customClass="CustomTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="68"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDE-wV-MyT" customClass="PrimaryButton" customModule="Swift_2AllForOne" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="302" height="46"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="68" id="3Y2-lc-Znz"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEp-ed-cUA" customClass="TooltipTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="68" width="350" height="68"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="68" id="A3B-c3-KIM"/>
+                                            <constraint firstAttribute="height" constant="46" id="e39-mQ-aOe"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="7Za-3W-gPy" secondAttribute="trailing" id="PNm-y1-AMi"/>
-                                    <constraint firstItem="7Za-3W-gPy" firstAttribute="leading" secondItem="eBn-QP-rVg" secondAttribute="leading" id="YeJ-Ax-vQd"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eBn-QP-rVg" secondAttribute="trailing" constant="32" id="gpc-cg-L44"/>
-                            <constraint firstItem="eBn-QP-rVg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="mij-Xz-k4J"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eBn-QP-rVg" secondAttribute="trailing" constant="56" id="gpc-cg-L44"/>
+                            <constraint firstItem="eBn-QP-rVg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="56" id="mij-Xz-k4J"/>
                             <constraint firstItem="eBn-QP-rVg" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="us3-Zm-Ycn"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="codeTextField" destination="7Za-3W-gPy" id="aqh-3z-TQs"/>
-                        <outlet property="tooltipTextField" destination="WEp-ed-cUA" id="Jc7-di-azr"/>
+                        <outlet property="testbutton" destination="FDE-wV-MyT" id="dph-sk-FNZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,9 +46,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

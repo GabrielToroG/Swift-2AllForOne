@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0CEF48290646870092FE3A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0CEF47290646860092FE3A /* Place.swift */; };
 		4C7F15E928F89AF10021495A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15E828F89AF10021495A /* UIViewExtension.swift */; };
 		4C7F15EB28F8A60F0021495A /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15EA28F8A60F0021495A /* UILabelExtension.swift */; };
 		4C7F15ED28F8A84D0021495A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15EC28F8A84D0021495A /* UITextFieldExtension.swift */; };
@@ -24,12 +25,19 @@
 		4C8BD78A28F88C5900ADDC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BD78828F88C5900ADDC75 /* LaunchScreen.storyboard */; };
 		4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD79328F88D4F00ADDC75 /* UIColorExtension.swift */; };
 		4C8BD79628F88DEB00ADDC75 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD79528F88DEB00ADDC75 /* UIViewControllerExtension.swift */; };
+		4CA891142901CC740054EB46 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA891132901CC740054EB46 /* PrimaryButton.xib */; };
+		4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA891152901CC8A0054EB46 /* PrimaryButton.swift */; };
+		4CBF7F1929101E25003E581F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF7F1829101E25003E581F /* UIConstants.swift */; };
 		4CE442F428F910A800FC1164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F328F910A800FC1164 /* Main.storyboard */; };
 		4CE442F628F9147D00FC1164 /* TooltipTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F528F9147D00FC1164 /* TooltipTextField.xib */; };
 		4CE442F828F9169B00FC1164 /* TooltipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE442F728F9169B00FC1164 /* TooltipTextField.swift */; };
+		A13E5C2B0D0C65E0D5A14312 /* Pods_Swift_2AllForOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD96A34C02D5F31304FCF7E5 /* Pods_Swift_2AllForOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB0248E5A00FEA036187A6A /* Pods-Swift-2AllForOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-2AllForOne.release.xcconfig"; path = "Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne.release.xcconfig"; sourceTree = "<group>"; };
+		3ED10344E885342C649348C4 /* Pods-Swift-2AllForOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-2AllForOne.debug.xcconfig"; path = "Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0CEF47290646860092FE3A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		4C7F15E828F89AF10021495A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		4C7F15EA28F8A60F0021495A /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		4C7F15EC28F8A84D0021495A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
@@ -49,9 +57,13 @@
 		4C8BD78B28F88C5900ADDC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8BD79328F88D4F00ADDC75 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4C8BD79528F88DEB00ADDC75 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		4CA891132901CC740054EB46 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
+		4CA891152901CC8A0054EB46 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		4CBF7F1829101E25003E581F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		4CE442F328F910A800FC1164 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CE442F528F9147D00FC1164 /* TooltipTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipTextField.xib; sourceTree = "<group>"; };
 		4CE442F728F9169B00FC1164 /* TooltipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipTextField.swift; sourceTree = "<group>"; };
+		BD96A34C02D5F31304FCF7E5 /* Pods_Swift_2AllForOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_2AllForOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +71,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E5C2B0D0C65E0D5A14312 /* Pods_Swift_2AllForOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0CEF492906468E0092FE3A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4C0CEF47290646860092FE3A /* Place.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		4C7F15F228F8B0840021495A /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +116,9 @@
 		4C7F15F928F8D43B0021495A /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				4CBD8F2B290C270A00A1558B /* Backend */,
 				4C7F15FA28F8D43F0021495A /* Local */,
+				4C0CEF492906468E0092FE3A /* API */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -111,6 +134,8 @@
 		4C7F15FE28F90B380021495A /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				4CA891132901CC740054EB46 /* PrimaryButton.xib */,
+				4CA891152901CC8A0054EB46 /* PrimaryButton.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -131,6 +156,8 @@
 			children = (
 				4C8BD77C28F88C5600ADDC75 /* Swift-2AllForOne */,
 				4C8BD77B28F88C5600ADDC75 /* Products */,
+				B01008FEBDA2513B01226038 /* Pods */,
+				B57AFB47CAB7A1C22A6CA05B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +172,7 @@
 		4C8BD77C28F88C5600ADDC75 /* Swift-2AllForOne */ = {
 			isa = PBXGroup;
 			children = (
+				4CBD8F2C290C27A500A1558B /* Utils */,
 				4C7F15F928F8D43B0021495A /* Modal */,
 				4C7F15F228F8B0840021495A /* View */,
 				4C8BD79128F88CB300ADDC75 /* Extensions */,
@@ -173,6 +201,38 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4CBD8F2B290C270A00A1558B /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		4CBD8F2C290C27A500A1558B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF7F1829101E25003E581F /* UIConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B01008FEBDA2513B01226038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ED10344E885342C649348C4 /* Pods-Swift-2AllForOne.debug.xcconfig */,
+				1AB0248E5A00FEA036187A6A /* Pods-Swift-2AllForOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B57AFB47CAB7A1C22A6CA05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD96A34C02D5F31304FCF7E5 /* Pods_Swift_2AllForOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8BD78E28F88C5900ADDC75 /* Build configuration list for PBXNativeTarget "Swift-2AllForOne" */;
 			buildPhases = (
+				651133828B1D86735CB79990 /* [CP] Check Pods Manifest.lock */,
 				4C8BD77628F88C5600ADDC75 /* Sources */,
 				4C8BD77728F88C5600ADDC75 /* Frameworks */,
 				4C8BD77828F88C5600ADDC75 /* Resources */,
+				A4865556B0599CF851315103 /* [CP] Copy Pods Resources */,
+				28A25DB6A3F6A06FF0FA5DAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA891142901CC740054EB46 /* PrimaryButton.xib in Resources */,
 				4C7F160128F90C240021495A /* CustomTextField.xib in Resources */,
 				4CE442F428F910A800FC1164 /* Main.storyboard in Resources */,
 				4C7F15F528F8B0D40021495A /* CustomAlert.storyboard in Resources */,
@@ -242,6 +306,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A25DB6A3F6A06FF0FA5DAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651133828B1D86735CB79990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift-2AllForOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4865556B0599CF851315103 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-2AllForOne/Pods-Swift-2AllForOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C8BD77628F88C5600ADDC75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -250,15 +373,18 @@
 				4C7F15E928F89AF10021495A /* UIViewExtension.swift in Sources */,
 				4C7F15ED28F8A84D0021495A /* UITextFieldExtension.swift in Sources */,
 				4C7F160328F90F4D0021495A /* CustomTextField.swift in Sources */,
+				4C0CEF48290646870092FE3A /* Place.swift in Sources */,
 				4CE442F828F9169B00FC1164 /* TooltipTextField.swift in Sources */,
 				4C8BD78228F88C5600ADDC75 /* ViewController.swift in Sources */,
 				4C7F15FD28F8D4740021495A /* CustomAlertInfo.swift in Sources */,
 				4C8BD77E28F88C5600ADDC75 /* AppDelegate.swift in Sources */,
+				4CBF7F1929101E25003E581F /* UIConstants.swift in Sources */,
 				4C8BD79628F88DEB00ADDC75 /* UIViewControllerExtension.swift in Sources */,
 				4C7F15F128F8A9B40021495A /* UINavigationControllerExtension.swift in Sources */,
 				4C7F15EF28F8A91D0021495A /* UIButtonExtension.swift in Sources */,
 				4C7F15EB28F8A60F0021495A /* UILabelExtension.swift in Sources */,
 				4C7F15F728F8B0EE0021495A /* CustomAlertViewController.swift in Sources */,
+				4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */,
 				4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */,
 				4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */,
 			);
@@ -394,10 +520,12 @@
 		};
 		4C8BD78F28F88C5900ADDC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED10344E885342C649348C4 /* Pods-Swift-2AllForOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN95A477VU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift-2AllForOne/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -420,10 +548,12 @@
 		};
 		4C8BD79028F88C5900ADDC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB0248E5A00FEA036187A6A /* Pods-Swift-2AllForOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN95A477VU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift-2AllForOne/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

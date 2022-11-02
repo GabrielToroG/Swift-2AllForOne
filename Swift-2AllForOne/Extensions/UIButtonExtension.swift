@@ -12,10 +12,9 @@ extension UIButton {
     /// Animación que cambia el color de fondo del botón primario
     func changeColor() {
         let animation = CABasicAnimation(keyPath: "backgroundColor")
-//        animation.fromValue = UIColor.secundaryColor?.cgColor
-//        animation.toValue = UIColor.secundaryDarkColor?.cgColor
-        animation.duration = 0.2
-        animation.autoreverses = true
+        animation.fromValue = UIColor.brown.cgColor
+        animation.toValue = UIColor.systemBrown.cgColor
+        animation.duration = 0.3
         
         layer.add(animation, forKey: "backgroundColor")
     }
