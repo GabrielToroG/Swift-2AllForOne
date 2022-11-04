@@ -10,6 +10,7 @@ import UIKit
 
 struct UIConstants {
     static let globalHorizontalMarign = 32
+    static let textfieldHeight = 68
     static let buttonHorizontalMargin = 56
     static let buttonHeight = 46
 }

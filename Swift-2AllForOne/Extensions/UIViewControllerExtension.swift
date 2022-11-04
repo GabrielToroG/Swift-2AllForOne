@@ -84,7 +84,7 @@ extension UIViewController {
             containerViewBG: UIColor.white,
             image: UIImage(named: "general.logo")!,
             title: title,
-            description: description,
+            description: subtitle,
             buttonText: "Siguiente",
             buttonBG: UIColor.successColor)
         self.present(alert, animated: true)
@@ -104,7 +104,7 @@ extension UIViewController {
             containerViewBG: UIColor.white,
             image: UIImage(named: "general.logo")!,
             title: title,
-            description: description,
+            description: subtitle,
             buttonText: "Siguiente",
             buttonBG: UIColor.errorColor)
         self.present(alert, animated: true)

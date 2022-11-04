@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 import GooglePlaces
 
 @main
@@ -14,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Autentificación con Firebase
+        FirebaseApp.configure()
 
+        // Para usar Google Places
         GMSPlacesClient.provideAPIKey("AIzaSyA5gzNbWZYJRykabL0l2dsfDP0nI2bEao0")
         
         return true
