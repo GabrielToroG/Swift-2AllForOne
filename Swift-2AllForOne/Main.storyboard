@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,15 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gzH-vs-JE2">
-                                <rect key="frame" x="32" y="104" width="350" height="208"/>
+                                <rect key="frame" x="32" y="104" width="350" height="264"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jag-8o-e1N" customClass="CustomTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jag-8o-e1N" customClass="PrimaryTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="68" id="idX-gr-l2m"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKC-Dc-Y5z" customClass="CustomTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKC-Dc-Y5z" customClass="PrimaryTextField" customModule="Swift_2AllForOne" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="84" width="350" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="68" id="Dzp-ZL-LNI"/>
@@ -45,6 +46,12 @@
                                             <constraint firstAttribute="height" constant="40" id="o5P-6C-e8g"/>
                                         </constraints>
                                     </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJC-7r-c7h" customClass="ImageButton" customModule="Swift_2AllForOne" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="224" width="350" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wD4-e4-GWl"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -59,14 +66,68 @@
                     <navigationItem key="navigationItem" id="lXo-Ss-JA7"/>
                     <connections>
                         <outlet property="emailView" destination="jag-8o-e1N" id="Czx-kl-Hp8"/>
+                        <outlet property="googleView" destination="gJC-7r-c7h" id="CDT-2C-LRj"/>
                         <outlet property="logInView" destination="Iom-Zq-bz6" id="hX2-Jn-FeA"/>
                         <outlet property="passwordView" destination="ZKC-Dc-Y5z" id="5fv-FE-Zcj"/>
                         <outlet property="signUpView" destination="hL6-w6-4Vg" id="urb-wv-Jfg"/>
+                        <outlet property="stackView" destination="gzH-vs-JE2" id="6be-4W-YHs"/>
+                        <segue destination="pc1-xd-cfG" kind="show" identifier="goToMainFromLogin" id="f2S-K8-zoz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1355" y="78"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="9ne-xv-DuH">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="pc1-xd-cfG" customClass="MainViewController" customModule="Swift_2AllForOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adM-Hd-Bs2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EFD-2i-wGS">
+                                <rect key="frame" x="32" y="96" width="350" height="118"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dt-8Y-ltE">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYG-Jz-HdF">
+                                        <rect key="frame" x="0.0" y="42" width="350" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Csn-XX-gcd">
+                                        <rect key="frame" x="0.0" y="84" width="350" height="34"/>
+                                        <color key="backgroundColor" name="WarningColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Cerrar sesión"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RmZ-nf-wPY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RmZ-nf-wPY" firstAttribute="trailing" secondItem="EFD-2i-wGS" secondAttribute="trailing" constant="32" id="48e-QH-eaE"/>
+                            <constraint firstItem="EFD-2i-wGS" firstAttribute="top" secondItem="RmZ-nf-wPY" secondAttribute="top" constant="8" id="9NX-ca-4GF"/>
+                            <constraint firstItem="EFD-2i-wGS" firstAttribute="leading" secondItem="RmZ-nf-wPY" secondAttribute="leading" constant="32" id="c3S-WL-mHs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="18F-79-VPI"/>
+                    <connections>
+                        <outlet property="closeSessionButton" destination="Csn-XX-gcd" id="78T-Fh-LVV"/>
+                        <outlet property="emailLabel" destination="7dt-8Y-ltE" id="fq5-u4-pP4"/>
+                        <outlet property="providerLabel" destination="HYG-Jz-HdF" id="6FX-3D-8eM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDg-ki-Dj9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2048" y="78"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="abc-mC-so2">
@@ -86,6 +147,12 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="WarningColor">
+            <color red="0.98400002717971802" green="0.76499998569488525" blue="0.32499998807907104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

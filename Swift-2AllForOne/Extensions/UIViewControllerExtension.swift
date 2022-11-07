@@ -12,11 +12,13 @@ extension UIViewController {
     /// Establece el título del header --> Retorna un UIView
     /// - Parameters:
     ///     - title: El título que tendrá el header
-    func setNavBarTitle(title: String){
+    ///     - color: El color del texto que tendrá el header
+    func setNavBarTitle(title: String, color: UIColor){
         let titleText = title
         let tLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 160, height: 40))
         tLabel.text = titleText
-        tLabel.textColor = UIColor.white
+        tLabel.textColor = color
+        tLabel.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
         tLabel.textAlignment = .center
         tLabel.adjustsFontSizeToFitWidth = true
         tLabel.minimumScaleFactor = 0.5

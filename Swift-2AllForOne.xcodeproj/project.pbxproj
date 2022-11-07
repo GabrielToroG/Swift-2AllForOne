@@ -16,8 +16,8 @@
 		4C7F15F528F8B0D40021495A /* CustomAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F15F428F8B0D40021495A /* CustomAlert.storyboard */; };
 		4C7F15F728F8B0EE0021495A /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15F628F8B0EE0021495A /* CustomAlertViewController.swift */; };
 		4C7F15FD28F8D4740021495A /* CustomAlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F15FC28F8D4730021495A /* CustomAlertInfo.swift */; };
-		4C7F160128F90C240021495A /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F160028F90C240021495A /* CustomTextField.xib */; };
-		4C7F160328F90F4D0021495A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F160228F90F4D0021495A /* CustomTextField.swift */; };
+		4C7F160128F90C240021495A /* PrimaryTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F160028F90C240021495A /* PrimaryTextField.xib */; };
+		4C7F160328F90F4D0021495A /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F160228F90F4D0021495A /* PrimaryTextField.swift */; };
 		4C8BD77E28F88C5600ADDC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD77D28F88C5600ADDC75 /* AppDelegate.swift */; };
 		4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD77F28F88C5600ADDC75 /* SceneDelegate.swift */; };
 		4C8BD78228F88C5600ADDC75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD78128F88C5600ADDC75 /* ViewController.swift */; };
@@ -28,11 +28,14 @@
 		4C9E40542912FDDE003633BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E40532912FDDE003633BD /* LoginViewController.swift */; };
 		4CA891142901CC740054EB46 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA891132901CC740054EB46 /* PrimaryButton.xib */; };
 		4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA891152901CC8A0054EB46 /* PrimaryButton.swift */; };
+		4CAAE78729173E11003D9F7D /* ImageButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAE78629173E11003D9F7D /* ImageButton.xib */; };
+		4CAAE78929173EAA003D9F7D /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAE78829173EAA003D9F7D /* ImageButton.swift */; };
 		4CBF7F1929101E25003E581F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF7F1829101E25003E581F /* UIConstants.swift */; };
 		4CDAFEC72911F19100660CE6 /* CustomCheckbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDAFEC62911F19100660CE6 /* CustomCheckbox.xib */; };
 		4CDAFEC92911F57800660CE6 /* CustomCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDAFEC82911F57800660CE6 /* CustomCheckbox.swift */; };
 		4CDAFECB291226EB00660CE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDAFECA291226EB00660CE6 /* GoogleService-Info.plist */; };
 		4CDAFECE2912291C00660CE6 /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDAFECD2912291C00660CE6 /* Login2ViewController.swift */; };
+		4CE0EE602916028E00F79BC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0EE5F2916028E00F79BC5 /* MainViewController.swift */; };
 		4CE442F428F910A800FC1164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F328F910A800FC1164 /* Main.storyboard */; };
 		4CE442F628F9147D00FC1164 /* TooltipTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE442F528F9147D00FC1164 /* TooltipTextField.xib */; };
 		4CE442F828F9169B00FC1164 /* TooltipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE442F728F9169B00FC1164 /* TooltipTextField.swift */; };
@@ -51,8 +54,8 @@
 		4C7F15F428F8B0D40021495A /* CustomAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomAlert.storyboard; sourceTree = "<group>"; };
 		4C7F15F628F8B0EE0021495A /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 		4C7F15FC28F8D4730021495A /* CustomAlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertInfo.swift; sourceTree = "<group>"; };
-		4C7F160028F90C240021495A /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
-		4C7F160228F90F4D0021495A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4C7F160028F90C240021495A /* PrimaryTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryTextField.xib; sourceTree = "<group>"; };
+		4C7F160228F90F4D0021495A /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
 		4C8BD77A28F88C5600ADDC75 /* Swift-2AllForOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-2AllForOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8BD77D28F88C5600ADDC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8BD77F28F88C5600ADDC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,11 +68,14 @@
 		4C9E40532912FDDE003633BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4CA891132901CC740054EB46 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		4CA891152901CC8A0054EB46 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		4CAAE78629173E11003D9F7D /* ImageButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageButton.xib; sourceTree = "<group>"; };
+		4CAAE78829173EAA003D9F7D /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
 		4CBF7F1829101E25003E581F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		4CDAFEC62911F19100660CE6 /* CustomCheckbox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCheckbox.xib; sourceTree = "<group>"; };
 		4CDAFEC82911F57800660CE6 /* CustomCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckbox.swift; sourceTree = "<group>"; };
 		4CDAFECA291226EB00660CE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CDAFECD2912291C00660CE6 /* Login2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
+		4CE0EE5F2916028E00F79BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CE442F328F910A800FC1164 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CE442F528F9147D00FC1164 /* TooltipTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipTextField.xib; sourceTree = "<group>"; };
 		4CE442F728F9169B00FC1164 /* TooltipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipTextField.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			children = (
 				4C7F15F328F8B0890021495A /* Common */,
 				4CDAFECC291228ED00660CE6 /* Login */,
+				4CE0EE5E2915D0A200F79BC5 /* Main */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +155,8 @@
 			children = (
 				4CA891132901CC740054EB46 /* PrimaryButton.xib */,
 				4CA891152901CC8A0054EB46 /* PrimaryButton.swift */,
+				4CAAE78629173E11003D9F7D /* ImageButton.xib */,
+				4CAAE78829173EAA003D9F7D /* ImageButton.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -155,8 +164,8 @@
 		4C7F15FF28F90BB80021495A /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
-				4C7F160028F90C240021495A /* CustomTextField.xib */,
-				4C7F160228F90F4D0021495A /* CustomTextField.swift */,
+				4C7F160028F90C240021495A /* PrimaryTextField.xib */,
+				4C7F160228F90F4D0021495A /* PrimaryTextField.swift */,
 				4CE442F528F9147D00FC1164 /* TooltipTextField.xib */,
 				4CE442F728F9169B00FC1164 /* TooltipTextField.swift */,
 			);
@@ -247,6 +256,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		4CE0EE5E2915D0A200F79BC5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0EE5F2916028E00F79BC5 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		B01008FEBDA2513B01226038 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA891142901CC740054EB46 /* PrimaryButton.xib in Resources */,
-				4C7F160128F90C240021495A /* CustomTextField.xib in Resources */,
+				4C7F160128F90C240021495A /* PrimaryTextField.xib in Resources */,
 				4CDAFECB291226EB00660CE6 /* GoogleService-Info.plist in Resources */,
 				4CE442F428F910A800FC1164 /* Main.storyboard in Resources */,
 				4C7F15F528F8B0D40021495A /* CustomAlert.storyboard in Resources */,
@@ -334,6 +351,7 @@
 				4CDAFEC72911F19100660CE6 /* CustomCheckbox.xib in Resources */,
 				4C8BD78A28F88C5900ADDC75 /* LaunchScreen.storyboard in Resources */,
 				4C8BD78728F88C5900ADDC75 /* Assets.xcassets in Resources */,
+				4CAAE78729173E11003D9F7D /* ImageButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE0EE602916028E00F79BC5 /* MainViewController.swift in Sources */,
 				4C7F15E928F89AF10021495A /* UIViewExtension.swift in Sources */,
 				4C7F15ED28F8A84D0021495A /* UITextFieldExtension.swift in Sources */,
-				4C7F160328F90F4D0021495A /* CustomTextField.swift in Sources */,
+				4C7F160328F90F4D0021495A /* PrimaryTextField.swift in Sources */,
 				4C0CEF48290646870092FE3A /* Place.swift in Sources */,
 				4CDAFECE2912291C00660CE6 /* Login2ViewController.swift in Sources */,
 				4CE442F828F9169B00FC1164 /* TooltipTextField.swift in Sources */,
@@ -419,6 +438,7 @@
 				4C7F15EF28F8A91D0021495A /* UIButtonExtension.swift in Sources */,
 				4C7F15EB28F8A60F0021495A /* UILabelExtension.swift in Sources */,
 				4C7F15F728F8B0EE0021495A /* CustomAlertViewController.swift in Sources */,
+				4CAAE78929173EAA003D9F7D /* ImageButton.swift in Sources */,
 				4CA891162901CC8A0054EB46 /* PrimaryButton.swift in Sources */,
 				4C8BD78028F88C5600ADDC75 /* SceneDelegate.swift in Sources */,
 				4C8BD79428F88D4F00ADDC75 /* UIColorExtension.swift in Sources */,
